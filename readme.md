@@ -1,3 +1,1 @@
-Truy cập từng folder để chạy
-Chạy FrontEnd: npm start
-Chạy BackEnd: node --watch server.js
+HTKDTM NHÓM 4 CỤM 1
