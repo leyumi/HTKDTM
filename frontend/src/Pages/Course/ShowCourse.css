@@ -1,0 +1,90 @@
+/* Tổng quan */
+.show-course {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Chiều cao toàn bộ màn hình */
+  background-color: #f9f9f9;
+
+  /* Header */
+  .header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #444;
+  }
+
+  /* Nội dung chính */
+  .row {
+    flex: 1; /* Đẩy phần footer xuống dưới */
+    display: flex;
+    overflow: hidden; /* Đảm bảo nội dung không tràn */
+  }
+
+  .video-player-container {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+  }
+
+  .video-player {
+    flex: 1; /* Đảm bảo khung video chiếm toàn bộ chiều cao còn lại */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .video-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  /* Nội dung khóa học */
+  .course-content {
+    flex: 1;
+    max-height: calc(100vh - 110px); /* Chiều cao tối đa của phần nội dung */
+    background-color: #fff;
+    border-left: 1px solid #ddd;
+    overflow-y: auto; /* Kích hoạt thanh cuộn nếu nội dung quá dài */
+  }
+
+  .course-content h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .course-content .sticky {
+    position: sticky;
+    top: 0; /* Khoảng cách từ đầu viewport */
+    z-index: 1; /* Để đảm bảo luôn ở trên các phần khác */
+    background-color: white; /* Đảm bảo nền không bị trong suốt khi cuộn */
+    padding: 10px; /* Thêm padding nếu cần */
+    border-bottom: 1px solid #ddd; /* Tạo ranh giới rõ ràng */
+  }
+
+  .course-content .list-group-item {
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+  }
+
+  .course-content .list-group-item.active {
+    background-color: white;
+    color: #dc3546;
+    font-weight: bold;
+  }
+
+  /* Footer */
+  .footer-nav {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+  }
+}

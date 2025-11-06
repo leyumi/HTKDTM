@@ -1,0 +1,45 @@
+.info-card {
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+background-color: #f9f9f9; /* Màu nền mặc định */
+height: 90px;
+}
+
+.info-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.icon-container {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 40px;
+height: 40px;
+border-radius: 20px;
+background-color: #e9f7ef; /* Màu nền biểu tượng */
+}
+
+.info-title {
+font-size: 0.85rem;
+}
+
+.info-value {
+font-size: 1.25rem;
+}
+.bg-blue {
+background-color: #569AE3;
+
+}
+
+.bg-purple {
+background-color: #8A6FD6;
+
+}
+
+.bg-orange {
+background-color: #FDAB5F;
+}
+.bg-green{
+    background-color: #1E8E5A;
+}

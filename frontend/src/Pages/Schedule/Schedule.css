@@ -1,0 +1,14 @@
+.custom-input {
+    border: 2px solid #ced4da; /* Viền mặc định */
+    border-radius: 4px; /* Góc bo tròn */
+    padding: 6px 12px; /* Khoảng cách bên trong */
+    font-size: 14px; /* Kích thước chữ */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Hiệu ứng hover */
+  }
+  
+  .custom-input:focus {
+    border-color: #007bff; /* Màu viền khi focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Hiệu ứng ánh sáng khi focus */
+    outline: none; /* Loại bỏ đường outline mặc định */
+  }
+  

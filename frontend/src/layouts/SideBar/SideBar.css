@@ -1,0 +1,43 @@
+.sidebar {
+  width: 250px;
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+  padding: 10px;
+  position: sticky;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%; /* Căn giữa toàn phần */
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin: 10px 0px;
+  display: block;
+}
+
+.sidebar ul li a {
+  color: #ccc;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.sidebar ul li a i {
+  margin-right: 10px; /* Khoảng cách giữa icon và text */
+  font-size: 20px; /* Kích thước icon */
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+  background-color: #444;
+  color: #fff;
+  cursor: pointer;
+}

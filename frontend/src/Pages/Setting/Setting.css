@@ -1,0 +1,141 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body, .setting, .setting-content {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f6fa; /* nền sáng dịu mắt */
+    color: #333;
+}
+
+/* Tiêu đề gradient */
+.text-primary {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Alert Membership */
+.alert-success {
+    background-color: #e6f4ea;
+    border-color: #a3d9a5;
+    color: #1f7a33;
+    font-weight: 500;
+}
+
+.alert-warning {
+    background-color: #fff4e6;
+    border-color: #ffd3a6;
+    color: #b35f00;
+    font-weight: 500;
+}
+
+/* Card chung */
+.card {
+    border-radius: 1rem;
+    transition: all 0.3s;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Card nội dung đồng bộ / mật khẩu */
+.card-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+/* Button */
+.btn, .btn-gradient, .btn-primary, .btn-danger, .btn-success {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    transition: all 0.3s;
+    border-radius: 0.8rem;
+}
+
+.btn-gradient {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: #fff;
+}
+
+.btn-gradient:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.btn-primary:hover {
+    background-color: #0056d2;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-success:hover {
+    background-color: #28a745cc;
+}
+
+/* Modal */
+.modal-content {
+    border-radius: 1rem;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.modal-header .btn-close {
+    filter: invert(0.3);
+}
+
+/* Modal backdrop */
+.modal-backdrop {
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* List group */
+.list-group-item {
+    transition: all 0.2s;
+    border-radius: 0.6rem;
+    margin-bottom: 0.3rem;
+}
+
+.list-group-item:hover {
+    background-color: #eef2ff;
+}
+
+/* Nâng cấp VIP button */
+.membership-status .btn {
+    font-weight: 600;
+    border-radius: 0.8rem;
+}
+
+/* Responsive input */
+input.form-control {
+    border-radius: 0.6rem;
+    box-shadow: inset 0 2px 6px rgba(0,0,0,0.05);
+}
+
+input.form-control:focus {
+    border-color: #6a11cb;
+    box-shadow: 0 0 8px rgba(106,17,203,0.3);
+}
+
+/* Các section */
+.setting-content {
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+h2, h4, h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}

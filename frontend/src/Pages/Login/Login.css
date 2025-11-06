@@ -1,0 +1,50 @@
+/* General styles */
+body {
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Login container */
+.login-container {
+  display: flex;
+  width: 900px; /* Tổng chiều rộng */
+  border-radius: 10px;
+  overflow: hidden; /* Loại bỏ viền thừa */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Form đăng nhập */
+.login-form {
+  flex: 1; /* Chiếm 50% không gian */
+  background-color: white;
+}
+
+/* Ảnh */
+.login-image {
+  flex: 1; /* Chiếm 50% không gian */
+}
+
+.custom-img {
+  width: 450px;
+  height: 600px;
+  object-fit: cover; /* Ảnh sẽ vừa khung và không bị méo */
+}
+.spinner-border {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: text-bottom;
+  border: 0.1em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spinner-border 0.75s linear infinite;
+}
+
+@keyframes spinner-border {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+

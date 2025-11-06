@@ -1,0 +1,29 @@
+/* ==== Màu nền mới cho các thẻ thống kê ==== */
+.bg-cyan {
+  background: linear-gradient(135deg, #00b8a9, #00e0b8);
+  color: #fff !important;
+}
+
+.bg-purple {
+  background: linear-gradient(135deg, #6a4c93, #b57edc);
+  color: #fff !important;
+}
+
+.bg-orange {
+  background: linear-gradient(135deg, #f76c6c, #f9a66c);
+  color: #fff !important;
+}
+
+/* Giữ cho text và icon hiển thị rõ */
+.info-card {
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+.info-card:hover {
+  transform: translateY(-5px);
+}
+.info-card i {
+  font-size: 24px;
+  margin-right: 8px;
+}

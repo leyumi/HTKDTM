@@ -1,0 +1,40 @@
+.schedule-card {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 15px;
+    background-color: #f8f9fa;
+    max-width: 370px;
+    height: 75px;
+  }
+  
+  .schedule-time {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .schedule-divider {
+    width: 1px;
+    background-color: black;
+    margin: 0 15px;
+    height: 40px;
+  }
+  
+  .schedule-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .schedule-label {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .schedule-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+  }
+  

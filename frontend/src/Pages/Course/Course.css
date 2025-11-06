@@ -1,0 +1,50 @@
+img {
+  height: 120px;
+  width: 100px;
+}
+.tab-content {
+  margin-left: 20px;
+}
+
+.course {
+  .slick-slider {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .slick-slide {
+    padding: 0 15px; /* Khoảng cách giữa các slide */
+  }
+
+  .slick-slide:first-child {
+    padding-left: 0; /* Loại bỏ khoảng cách bên trái cho slide đầu tiên */
+  }
+
+  .slick-slide:last-child {
+    padding-right: 0; /* Loại bỏ khoảng cách bên phải cho slide cuối cùng */
+  }
+
+  .slick-list {
+    margin: 0 -15px;
+  }
+
+  .slick-track {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .card {
+    margin: 0 15px;
+  }
+
+  .carousel-control-next {
+    width: 10%;
+    background: linear-gradient(to left, #333, #0000);
+  }
+  .carousel-control-prev {
+    width: 10%;
+    background: linear-gradient(to right, #333, #0000);
+  }
+}
+
