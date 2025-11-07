@@ -10,10 +10,7 @@
   - `password` (string, độ dài 8-16, bắt buộc): Mật khẩu
 - **Mẫu body**:
   ```json
-  {
-      "username": "tuandodk",
-      "password": "tuan2106"
-  }
+  
   ```
 - **Mã trạng thái kết quả**:
   - `400`: body không hợp lệ
@@ -33,10 +30,7 @@
   - `password` (string, độ dài 8-16, bắt buộc): Mật khẩu
 - **Mẫu body**:
   ```json
-  {
-      "username": "tuandodk",
-      "password": "tuan2106"
-  }
+  
   ```
 - **Mã trạng thái kết quả**:
   - `400`: Mật khẩu không đúng
@@ -69,10 +63,7 @@
   - `Authorization`: Token lấy từ đăng nhập
 - **Mẫu body**:
   ```json
-  {
-      "username": "2121312312312",
-      "password": "something"
-  }
+ 
   ```
 - **Mã trạng thái kết quả**:
   - `503`: Lỗi từ bên phía sinhvientlu
